@@ -1,0 +1,77 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Sharavana Vel J",
+      "email": "sharavanavelj@gmail.com",
+      "password": "$2a$10$5bkkdWwv2HWDgpi6RzNAtOFNGuHef2E5e3oQOWDS/OIIYEWNL0V5y",
+      "department": "Civil",
+      "year": 2,
+      "resumeLink": "",
+      "created_at": "2026-03-28T10:53:20.241Z"
+    },
+    {
+      "id": 2,
+      "name": "HELLO",
+      "email": "sharavanavel5@gmail.com",
+      "password": "$2a$10$PVMGM5AKZEXThyH6DagdteRvMub5.Mch2NyZePtFaEfYXYx9EOfvy",
+      "department": "Mechanical",
+      "year": 2,
+      "resumeLink": "",
+      "created_at": "2026-03-28T11:00:41.043Z"
+    },
+    {
+      "id": 3,
+      "name": "Sharavana Vel",
+      "email": "sharavanavel9@gmail.com",
+      "password": "$2a$10$GF5.MuYrKqQBTTvH7RdnveQeDymfKBg3HWx3y5WZ85NpKuiU4Ab3y",
+      "department": "Electrical",
+      "year": 1,
+      "resumeLink": "",
+      "created_at": "2026-03-28T11:08:16.227Z"
+    },
+    {
+      "id": 4,
+      "name": "Sharavana Vel J",
+      "email": "sharavanavel7@gmail.com",
+      "password": "$2a$10$bdKSiJ3ye7AZ/imuss09X.YPMJI9ig6p44UdBxffEYT1GqoD9/Xnm",
+      "department": "Information Technology",
+      "year": 2,
+      "resumeLink": "",
+      "created_at": "2026-03-28T13:23:18.328Z"
+    }
+  ],
+  "coordinators": [
+    {
+      "id": 1,
+      "name": "Admin Coordinator",
+      "email": "admin@placement.com",
+      "password": "$2a$10$VaWtpDm5gLPWGLaoXoH1sObYzzuTxVUZXrnNAOq6991dVviFkARzi",
+      "created_at": "2026-03-28T10:51:03.386Z"
+    }
+  ],
+  "companies": [
+    {
+      "id": 2,
+      "companyName": "Gugai",
+      "role": "aI DEVELOPER",
+      "lpa": "45",
+      "requirements": "No Salary",
+      "created_at": "2026-03-28T13:25:36.496Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": 3,
+      "studentId": 3,
+      "companyId": 2,
+      "applied_at": "2026-03-28T13:25:58.482Z"
+    }
+  ],
+  "nextId": {
+    "students": 5,
+    "coordinators": 2,
+    "companies": 3,
+    "applications": 4
+  }
+}
